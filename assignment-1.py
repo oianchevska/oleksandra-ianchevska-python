@@ -17,7 +17,7 @@ ask_age = int(input ("What is your born year? "))
 
 current_age = 2026-ask_age
 
-print(f"Hi, {name}! You are approximately {current_age} years old.")
+print(f"Hi, {ask_name}! You are approximately {current_age} years old.")
 
 # Section 3. Type Conversion and f-strings
 
@@ -33,7 +33,7 @@ print (f"{name}, your result is {result}.")
 
 item = "Milk-Bone Dog Biscuits"
 price = 8.99
-quantity = int(input(f"{name}, how many biscuits would you like to buy ? "))
+quantity = 10
 total_price = price * quantity
 
 print ("===========================")
@@ -43,10 +43,9 @@ print (f"Item: {item}")
 print (f"Price: ${price}")
 print (f"Quantity: {quantity}")
 print ("---------------------------")
-print (f"Total: ${total_price}")
+print (f"Total: ${total_price:.2f}")
 
 # Section 5. Mini-Project - Profile Card
-
 
 
 name2 = input("What is your full name? ").strip().title()
